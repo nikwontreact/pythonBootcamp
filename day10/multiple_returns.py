@@ -1,5 +1,10 @@
 # function with multiple return statements
 def format_name (fname,lname):
+#   docstring to document your code -> """ below is docstring hover
+#  on that function to get its detail and 
+# must be return after declaration of that function
+# """ 
+    """takes first name and last name from user returns formatted names"""
     if fname == "" or lname == "":
         return "you have not provided names"
     
