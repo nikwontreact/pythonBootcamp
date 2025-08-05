@@ -1,4 +1,5 @@
-students_score = input("Input the list of students score ").split()
+students_score = input("Input the list of students score ").split
+print("marks of students  \n",students_score)
 for n in range(0 , len(students_score)):
     students_score[n] = int(students_score[n])
 highest_score = 0

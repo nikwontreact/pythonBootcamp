@@ -3,7 +3,7 @@ import math
 def paint_calc(height , width ,coverage):
     area = height*width
     no_of_cans = math.ceil(area/coverage)
-    print(f"you will need {no_of_cans} to paint the wall")
+    print(f"you will need {no_of_cans} cans to paint the wall")
 
     
 

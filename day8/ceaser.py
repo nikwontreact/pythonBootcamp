@@ -15,7 +15,7 @@ def ceaser(start_text,shift_amount,cipher_direction):
     else:
      end_text += char
 
-  print(f"The {cipher_direction}d text is {end_text}")  
+  print(f"The {cipher_direction} text is {end_text}")  
 
 run_again = True
 while run_again:

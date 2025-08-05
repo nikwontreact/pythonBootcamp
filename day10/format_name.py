@@ -1,10 +1,11 @@
 # Funtions with output 
 
 def format_name(f_name,l_name):
+   
    formatted_fname = f_name.title()
    formatted_lname = l_name.title()
    return f"{formatted_fname,formatted_lname}"
-print (format_name("SOde","NIKHIL"))
+
 
 # passing fun_1's output as input to fun_2
 
