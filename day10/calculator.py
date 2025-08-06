@@ -16,7 +16,7 @@ operations = {
     "+" : add,
     "-" : sub,
     "*" : mul,
-    "/" : divde
+    "/" : divide
 }
 def calculator():
     should_accumulate = True
